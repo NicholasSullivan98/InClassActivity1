@@ -12,6 +12,7 @@ public class CardTrick {
     public static void main(String[] args)
     {
        Card c1 = new Card();
+       System.out.println("Suit: " + c1.getSuit() + "Value: " + c1.getValue());
     }
     
 }
